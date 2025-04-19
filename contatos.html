@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./styles/textBoxes.css">
+    <link rel="stylesheet" href="./styles/general.css">
+
+    <link rel="icon" type="image/png" href="./images/icons/psychology_icon.png">
+
+    <title>Contatos</title>
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+    <script>
+        fetch('navbar.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            });
+    </script>
+    <h1>Contatos</h1>
+    <h2>Agende sua avaliação ou tire suas dúvidas</h2>
+
+    <div class="baseContainer">
+        <a href="https://wa.me/+5547997449114" target="_blank" class="textBox">
+            <h3 class="contactsBoxTitle">Whatsapp</h3>
+            <p class="boxContent">Clique aqui para iniciar uma conversa no WhatsApp.</p>
+        </a>
+
+        <a href="https://www.instagram.com/psi.barbaracardoso?igsh=ejBtaG04djl3YzFk" target="_blank" class="textBox">
+            <h3 class="contactsBoxTitle">Instagram</h3>
+            <p class="boxContent">Conheça meus conteúdos em saúde mental no Instagram.</p>
+        </a>
+
+        <a href="https://www.tiktok.com/@baahhcardoso?_t=8qnlcXI3psz&_r=1" target="_blank" class="textBox">
+            <h3 class="contactsBoxTitle">TikTok</h3>
+            <p class="boxContent">Acesse conteúdos de saúde mental em vídeo através do TikTok.</p>
+        </a>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./styles/general.css">
+
+    <link rel="icon" type="image/png" href="./images/icons/psychology_icon.png">
+
+    <title>Jardim da Mente Psicologia</title>
+</head>
+
+<body>
+    <!-- Esse script chama a navbar do arquivo navbar.html, caso algo seja alterado no arquivo de HTML vai refletir em todas as telas  -->
+    <div id="navbar-container"></div>
+    <script>
+        fetch('navbar.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            });
+    </script>
+
+    <h1 class="h1">Cuidando da Sua Saúde Mental e Equilíbrio Emocional</h1>
+    <h2>Conheça minha proposta</h2>
+    <p>Aqui, a psicologia se torna uma experiência divertida e acolhedora! Se você está lidando
+        com ansiedade,
+        depressão, bipolaridade, borderline ou precisando elaborar traumas, estou pronta para ajudar. Os tratamentos que
+        eu utilizo são seguros e comprovados cientificamente.
+
+        Venha conhecer meu espaço e descubra como podemos juntos transformar sua jornada emocional. Agende sua consulta
+        e dê o primeiro passo para descoberta de como fazer terapia pode ser leve, divertida e ainda te levar a uma vida
+        feliz!
+
+        A avaliação inicial é gratuita por até 30 minutos para você conhecer meu trabalho e receber um direcionamento de
+        tratamento.</p>
+
+    <h2>Psicologia como inspiração</h2>
+    <p>Descobri meu amor pela clínica durante os estágios da graduação que me fizeram perceber
+        que, ver o paciente
+        conseguindo sair do sofrimento, construir uma saúde mental sólida, autônoma e autossuficiente é o encaixe
+        perfeito da minha história em busca da liberdade de Ser.
+
+    <p>Através de uma infância limitada eu aprendi a me perder em livros de histórias fantasiosas,
+        que me permitiam
+        viver num mundo paralelo onde eu era livre podendo sentir na pele a vida de cada personagem de forma única. Isso
+        me fez desenvolver uma habilidade de atenção concentrada a ponto de abstrair todo e qualquer som, movimento e
+        coisas ao meu redor.</p>
+
+    <p>Então quando eu fui para os atendimentos clínicos percebi uma semelhança, eu sai dos
+        livros pra viver a história
+        de cada paciente de forma empática, extremamente compreensível pela perspectiva do outro, sendo capaz de
+        esquecer que existe um mundo além da sessão naquele momento exato em que se compartilha uma vida comigo,
+        tornando cada sessão exclusiva e memorável. Eu vejo meus pacientes como perfeitos livros a serem lidos onde
+        descobrimos juntos o desfecho dessa história.</p>
+    <p>
+        Através de uma infância limitada eu aprendi a me perder em livros de histórias fantasiosas, que me permitiam
+        viver num mundo paralelo onde eu era livre podendo sentir na pele a vida de cada personagem de forma única. Isso
+        me fez desenvolver uma habilidade de atenção concentrada a ponto de abstrair todo e qualquer som, movimento e
+        coisas ao meu redor.</p>
+    <p>
+        Então quando eu fui para os atendimentos clínicos percebi uma semelhança, eu sai dos livros pra viver a história
+        de cada paciente de forma empática, extremamente compreensível pela perspectiva do outro, sendo capaz de
+        esquecer que existe um mundo além da sessão naquele momento exato em que se compartilha uma vida comigo,
+        tornando cada sessão exclusiva e memorável. Eu vejo meus pacientes como perfeitos livros a serem lidos onde
+        descobrimos juntos o desfecho dessa história.</p>
+</body>
+
+</html>

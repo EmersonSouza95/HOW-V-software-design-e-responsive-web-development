@@ -1,0 +1,55 @@
+.baseContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.textBox {
+  flex: 1 1 calc(33.33% - 10px);
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: white;
+  min-width: 250px;
+  max-width: 400px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: inherit;
+}
+
+.boxTitle {
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.boxContent {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  white-space: pre-line;
+  text-align: center;
+}
+
+.contactsBoxTitle {
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .textBox {
+    flex: 1 1 100%;
+  }
+}

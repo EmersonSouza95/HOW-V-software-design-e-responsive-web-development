@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./styles/textBoxes.css">
+    <link rel="stylesheet" href="./styles/general.css">
+
+    <link rel="icon" type="image/png" href="./images/icons/psychology_icon.png">
+
+    <title>Serviços</title>
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+    <script>
+        fetch('navbar.html')
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            });
+    </script>
+
+    <h1>Tipos de Tratamento e Sintomas</h1>
+
+    <div class="baseContainer">
+        <div class="textBox">
+            <h3 class="boxTitle">Transtorno Bipolar</h3>
+            <div class="boxContent">
+                Humor Sensivel?<br>
+                Pensamentos Acelerados?<br>
+                Pensamentos Depressivos?<br>
+                Excesso de Energia Repentina?<br>
+                Impulsividade?<br>
+                Sono desregulado?
+            </div>
+        </div>
+    </div>
+
+    <div class="baseContainer">
+        <div class="textBox">
+            <h3 class="boxTitle">Ansiedade / Preocupações</h3>
+            <div class="boxContent">
+                Excesso de preocupações?<br>
+                Necessidade de controle?<br>
+                Medo de julgamento?<br>
+                Medo do futuro?<br>
+                Dificuldade para dormir ou acorda no meio da noite?<br>
+                Receio de desgradar?
+            </div>
+        </div>
+    </div>
+
+    <div class="baseContainer">
+        <div class="textBox">
+            <h3 class="boxTitle">TDAH / Falta de Motivação</h3>
+            <div class="boxContent">
+                Desatenção?<br>
+                Dificuldade para se concentrar?<br>
+                Procrastinação?<br>
+                Muitos pensamentos ao mesmo tempo?<br>
+                Dificuldade em ter constancia?<br>
+                Se sente diferente dos outros?
+            </div>
+        </div>
+    </div>
+
+    <div class="baseContainer">
+        <div class="textBox">
+            <h3 class="boxTitle">Baixa autoestima / Falta de autocuidado</h3>
+            <div class="boxContent">
+                Sem vontade de fazer atividades?<br>
+                Medo de se posicionar?<br>
+                Vive querendo agradar os outros?<br>
+                Medo do que irão pensar de você?<br>
+                Não consegue se priorizar?<br>
+                Não sabe dizer não?
+            </div>
+        </div>
+    </div>
+
+    <div class="baseContainer">
+        <div class="textBox">
+            <h3 class="boxTitle">Falta de Propósito / Traumas</h3>
+            <div class="boxContent">
+                Sensação de vazio existencial?<br>
+                Tristeza perante o futuro?<br>
+                Sem perspectiva de futuro?<br>
+                Se sente perdido?<br>
+                Vive somente o agora?<br>
+                Não sente prazer no dia a dia?
+            </div>
+        </div>
+    </div>
+
+    <div class="baseContainer">
+        <div class="textBox">
+            <h3 class="boxTitle">Medo / Fobias</h3>
+            <div class="boxContent">
+                Medos especificos?<br>
+                Medo de socializar?<br>
+                Medo de se posicionar?<br>
+                Paralisia quando está nervoso?<br>
+                Coração acelerado quando pensa em algo especifico?<br>
+                Medo de falhar?
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
