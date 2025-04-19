@@ -4,6 +4,23 @@
 
 Relatório final (Peso 5,0): capa, índice, introdução, objetivo, apresentação do negócio/entidade escolhida (itens indicados anteriormente), diagrama de caso de uso, definição de casos de uso, prototipação, desenvolvimento, apresentação das evidências, pontos positivos e negativos do projeto (até o momento deste relatório), e conclusão (até o momento deste relatório).
 
+Entregas:
+
+• Apresentação do negócio/entidade, contendo as seguintes informações: nome e identidade, nome do representante, nome do negocio/entidade e slogan (se houver); descrição, o que a o que a empresa/entidade faz, qual é o setor de atuação, qual problema ou necessidade atendida; público-alvo, quais são os seus clientes/membros; produto e/ou serviço que oferece; estrutura da equipe, principais integrantes do time (se houver).
+• Diagrama de Casos de Uso;
+• Definição dos Casos de Uso;
+• Prototipação do sistema;
+• Desenvolvimento: tecnologias utilizadas, telas da aplicação, endereço do Github, e endereço do site publicado (funcional).
+• Apresentação das evidências da atividade de extensão;
+• Pontos positivos e negativos do projeto (criado na entraga parcial, atualizado na final);
+• Conclusão (criado na entraga parcial, atualizado na final).
+
+## Importante
+• Encontrar site para hospedar de forma gratuita nosso site fora do github para deixar disponível para o profissional utilizar depois do final do trabalho
+• Descrever tecnologias utilizadas
+• Revisar se faltou algum ponto de critério de entrega no documento e no código
+
+
 ### Documento escrito
 Verificar o que já foi feito, revistar informações e adicionar o que falta
 
